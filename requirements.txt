@@ -1,0 +1,21 @@
+# --- core ---
+litellm>=1.55          # one interface for Gemini Flash/Pro + local Ollama
+python-dotenv>=1.0
+
+# --- optional: local speech (install when you wire audio) ---
+# faster-whisper>=1.0
+# sounddevice>=0.4
+# piper-tts>=1.2
+
+# --- optional: vision / face auth ---
+# insightface>=0.7
+# opencv-python>=4.9
+
+# --- optional: OS + web control ---
+# pyautogui>=0.9
+# pygetwindow>=0.0.9
+# playwright>=1.40
+
+# --- dev ---
+pytest>=8.0
+ruff>=0.5
